@@ -1,0 +1,47 @@
+@import 'vars';
+
+.container{
+    max-width:$width-page;
+    margin: 0 auto;
+    padding: 10px;
+    &__text{
+        margin-top: 10px;
+        border-radius: 5px;
+        background: white;
+        padding: 10px;
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: 1 1 200px;
+        justify-content: space-between;
+        padding: 40px 0;
+        gap: 40px;
+        .item{
+                border-radius: 5px;
+                background: white;
+                padding: 10px;
+                transition: transform .5s;
+                max-width: 200px;
+                cursor: pointer;
+                &__title{
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    padding-bottom: 10px;
+                }
+                &__img{
+                    max-width: 200px;
+                }
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+        }
+    }
+}

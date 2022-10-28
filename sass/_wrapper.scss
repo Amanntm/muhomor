@@ -1,0 +1,7 @@
+@import 'vars';
+
+.wrapper{
+    height: 100%;
+    transition: all 2s;
+    background-image:linear-gradient($color1,$color2);
+}
