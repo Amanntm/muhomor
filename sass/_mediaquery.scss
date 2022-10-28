@@ -1,0 +1,18 @@
+@import 'vars';
+
+@media (max-width:1000px) {
+    .container{
+        &__list{
+           
+        
+            .item{
+                max-width: 100%!important;
+                &:hover {
+                        transform: none;
+                    }
+            }
+        }
+    }
+}
+
+
